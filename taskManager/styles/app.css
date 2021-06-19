@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(146, 127, 255);
+}
+main{
+    display: flex;
+}
+
+#list{
+    flex: 4;
+}
+
+#capture-form{
+    flex: 3;
+}
