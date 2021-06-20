@@ -1,14 +1,43 @@
+.task .description{
+    margin-left: 1rem;
+}
+.task .due-date{
+    flex: 3;
+}
+.task .location{
+    flex: 3;
+}
 body{
     background-color:rgb(146, 127, 255);
 }
+
 main{
     display: flex;
 }
 
 #list{
     flex: 4;
+    align-items: center;
 }
 
 #capture-form{
     flex: 3;
+    margin-right: 7rem;
+}
+
+.task{
+    display: flex;
+    background-color: white;
+    text-align:center;
+    margin-right: 20rem;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#btnSave{
+    background-color: rgb(206, 12, 12);
+}
+
+.container-fluid{
+    background-color: rgb(83, 80, 255);
 }
